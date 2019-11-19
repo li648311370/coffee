@@ -1,0 +1,162 @@
+*{margin: 0;padding: 0;}
+html,body{
+	width: 100%;
+	min-width: 1200px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style:none;
+}
+img{
+	vertical-align: top;
+	/* width: 100%; */
+}
+a{
+	color: #666;
+}
+.w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: ',';
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.header_left{
+	float: left;
+	margin-left: 46px;
+}
+.header_right{
+	float: right;
+	margin-right: 46px;
+}
+.header_right li{
+	float: left;
+	width: 120px;
+	text-align: center;
+	line-height:79px ;
+}
+.header_right li:hover{
+	border-bottom: 1px solid;
+}
+.banner img{
+	width: 100%;
+}
+.content_all{
+	margin: 36px 102px 22px 102px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #999;	
+}
+.item_all{
+	float: left;
+}
+.item{
+	/* display: inline-block; */
+	float: left;
+	margin-right: 36px;
+}
+.item span{
+	display: inline-block;
+	width: 2px;
+	height: 9px;
+	margin-right: 7px;
+	background: #999;
+}
+.item .span1{
+	background: #866961;
+}
+.item p:nth-of-type(2){
+	font-size: 12px;
+	color: #999;
+}
+.about{
+	float: right;
+	margin-top: 20px;
+}
+.about p a{
+	font-size: 14px;	
+}
+.about p a:nth-child(2),.about p a:nth-child(3){
+	color:#999;
+}
+.content_body{
+	margin: 0 102px;
+}
+.body_left{
+	width: 104px;
+	margin-right: 22px;
+	float: left;
+}
+.body_left p{
+	font-size: 24px;
+	color: #999;
+}
+.body_left p:first-child{
+	color: #866961;
+}
+.body_left img{
+	margin-top: 13px;
+}
+.body_left div{
+	width: 1px;
+	background: #999;
+	margin-left: 28px;
+}
+.body_left div:nth-of-type(1){
+	height: 58px;
+}
+.body_left div:nth-of-type(2){
+	height: 111px;
+}
+.body_left div:nth-of-type(3){
+	height: 60px;
+}
+.body_left div:nth-of-type(4){
+	height: 125px;
+}
+.body_right{
+	float: left;
+	
+}
+.body_right p{
+	width: 870px;
+	font-size: 14px;
+	color: #666;
+	margin: 7px 0 21px 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
+.body_right p:first-child{
+	color: #866961;
+}
+.body_right p a{
+	font-size: 14px;
+	margin-left: 22px;
+}
+.body_right p:first-child a{
+	color: #866961;	
+}
+
+
+
+
+.footer{
+	background: #866961;
+}
+.footer p{
+	font-size: 14px;
+	float: left;
+	line-height: 80px;
+	color: white;
+	margin-left: 102px;
+}
+.footer img{
+	float: right;
+	margin: 20px 102px 0 0;
+}
